@@ -1,0 +1,147 @@
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    width: 100%;
+  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 654px;
+}
+
+.item1 {
+    
+    background-image: url("images/pizza1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.item1 p {
+      font-size: 126px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    letter-spacing: -7px;
+  
+}
+
+.item2 {
+  
+}
+
+
+.nav {
+    
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin: 30px auto;
+    padding: 0px;
+}
+    
+
+
+ .nav li {
+    font-size: 20px;
+    margin: 15px;
+    list-style-type: none;
+}
+
+
+
+
+a:link {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius:5px;
+        
+}
+
+
+
+a:hover {
+        
+     color: white;
+     border: 1px solid transparent;
+     background-color: black;
+     position: relative;
+     top: 3px;
+     border-radius:5px;
+    
+}
+
+
+a:visited {
+  border: 1px solid black;
+    color: black;
+    border-radius:5px;
+}
+
+a:visited:hover {
+  border: 1px solid black;
+    color: white;
+    border-radius:5px;
+  
+}
+
+
+
+
+.order {
+  width: 50%;
+  margin: 30px auto;
+  background-color: #eee;
+  padding: 10px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 60px 0px 0px 0px;
+  
+}
+
+.order h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.set h1{
+    text-align: center;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.size {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+  font-size: 5px;
+}
+
+.topcontain {
+  
+  margin: 0 auto;
+  width: 150px;
+}
+
+.toppings {
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+
+
+
+

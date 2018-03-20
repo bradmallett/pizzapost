@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    width: 100%;
+   
+    
+    
+}
+
+.header {
+    width: 100%;
+    height: 654px;
+    background-image: url("images/pizza1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    z-index: 0;
+}
+
+.gradient {
+    background: linear-gradient(to right, black, transparent);
+    width: 85%;
+    height: 100%;
+    z-index: 1;
+    margin: 0px;
+}
+
+h1 {
+  font-size: 170px;
+    color: rgba(255, 255, 255, 0.79);
+    margin: 0px auto;
+    padding: 15px;
+    letter-spacing: -8px;
+}
+
+
+ 
+p {
+ font-size: 30px;
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: 260px;
+    left: 260px;
+    width: 600px;
+    
+}
+  
+ 
+
+.nav {
+    
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin-left: 55px;
+    padding-left: 46px;
+    
+}
+
+
+.nav li {
+       font-size: 25px;
+   margin: 15px;
+    list-style-type: none;
+    border-radius:5px;
+}
+
+
+
+
+a:link {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius:5px;
+        
+}
+
+
+
+a:hover {
+        
+     color: black;
+     border: 1px solid transparent;
+     background-color: white;
+     position: relative;
+     top: 3px;
+     border-radius:5px;
+    
+}
+
+
+a:visited {
+  border: 1px solid white;
+    color: white;
+    border-radius:5px;
+}
+
+a:visited:hover {
+  border: 1px solid black;
+    color: black;
+    border-radius:5px;
+  
+}
